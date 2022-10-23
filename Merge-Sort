@@ -1,0 +1,12 @@
+*[16,21,11,8,12,22] -> Merge Sort
+**İlk olarak tam ortadan ikiye böleriz.
+[16,21,11][8,12,22]
+**İkinci olarak oluşan grupları da ikiye ayırırız.
+[16,21][11][8,12][22]
+**1.grupta sıralama doğru. 2 ve 4 zaten tek şimdilik. 3. grupta doğru sıralı.
+**Tekrar birleştirerek 2 grup haline getiririz ve kendi içlerinde sıralarız.
+[11,16,21][8,12,22]
+**Bu iki grubu da birleştirip sıralarız.
+[8,11,12,16,21,22]
+
+*Big-O=  O(nlogn)
